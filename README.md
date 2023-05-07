@@ -1,6 +1,16 @@
-# Antonio Hernandez
-# INF653-MidtermProject
-# Muvva
-# 3 - 25 - 23
+# INF653 Midterm Project
 
-INF653-MidtermProject
+.. about the project
+.. description of project
+
+## Features
+-
+-
+-
+
+-------------------------------------------------------------------------------------------------
+
+## Instructions
+1.
+2.
+3.
