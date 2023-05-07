@@ -1,5 +1,6 @@
 <?php 
 
+    /*
     function connect() {
         $servername = "localhost";
         $username = "root";
@@ -15,21 +16,20 @@
 
         return $conn;
     }
+    */
+    function connect() {
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "zippyusedautos";
 
+        try {
+            $db = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+        } catch (PDOException $e) {
+            $error_message = "Database Error: ";
+            $error_message .= $e->getMessage();
+
+        }
+        return $db;
+    }
 ?>
-
-<?php 
-/*
-$dsn = "mysql:host=localhost; dbname=assignment_tracker";
-$username = 'root';
-
-try {
-$db = new PDO($dsn, $username);
-
-} catch (PDOException $e){
-$error_message = "Database Error: ";
-$error_message .= $e->getMessage();
-include('view/error.php');
-exit();
-}
-*/

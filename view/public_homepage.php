@@ -55,6 +55,7 @@ function renderPublicHomepage($vehicles, $makes, $types, $classes) {
             <tr>
                 <th>Year</th>
                 <th>Make</th>
+                <th>Model</th>
                 <th>Type</th>
                 <th>Class</th>
                 <th>Price</th>
@@ -66,6 +67,7 @@ function renderPublicHomepage($vehicles, $makes, $types, $classes) {
             <tr>
                 <td><?php echo $vehicle['year']; ?></td>
                 <td><?php echo $vehicle['make']; ?></td>
+                <td><?php echo $vehicle['model']; ?></td>
                 <td><?php echo $vehicle['type']; ?></td>
                 <td><?php echo $vehicle['class']; ?></td>
                 <td>$<?php echo number_format($vehicle['price'], 2); ?></td>
