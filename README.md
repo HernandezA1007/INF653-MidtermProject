@@ -9,6 +9,9 @@ The application is built using PHP, following the MVC design pattern and styled 
 - Admin Backend: that allows the client to manage the inventory by adding, editing, and deleting vehicles.
 - Both utilize a responsive design that supports various devices and screen sizes.
 
+![SrvlXGs](https://user-images.githubusercontent.com/112008621/236756448-dca0a8f1-34a9-4b22-b69c-de414213da97.png)
+
+
 -------------------------------------------------------------------------------------------------
 
 ## Requirements
